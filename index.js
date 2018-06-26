@@ -72,6 +72,10 @@ Web3ProviderEngine.prototype.addProvider = function(source){
 }
 
 Web3ProviderEngine.prototype.send = function(payload, cb){
+  this.sendAsync(payload, cb);
+}
+
+Web3ProviderEngine.prototype.sendAsync = function(payload, cb){
   const self = this
   self._ready.await(function(){
 
