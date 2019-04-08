@@ -1,5 +1,5 @@
 const inherits = require('util').inherits
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('newchainjs-util')
 const BN = ethUtil.BN
 const clone = require('clone')
 const cacheUtils = require('../util/rpc-cache-utils.js')

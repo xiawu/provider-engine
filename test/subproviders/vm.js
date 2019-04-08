@@ -1,6 +1,6 @@
 const test = require('tape')
 const async = require('async')
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('newchainjs-util')
 const ProviderEngine = require('../../index.js')
 const VmSubprovider = require('../../subproviders/vm')
 const TestBlockProvider = require('../util/block.js')

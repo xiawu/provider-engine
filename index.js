@@ -1,6 +1,6 @@
 const EventEmitter = require('events').EventEmitter
 const inherits = require('util').inherits
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('newchainjs-util')
 const EthBlockTracker = require('eth-block-tracker')
 const map = require('async/map')
 const eachSeries = require('async/eachSeries')
